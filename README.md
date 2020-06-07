@@ -19,23 +19,23 @@ Example
  
         INPUT
         
-schedule lunch 1300 30
-schedule work 7200 2300
-schedule homework 2359 300
-run 2400
+       schedule lunch 1300 30
+       schedule work 7200 2300
+       schedule homework 2359 300
+       run 2400
 
 
         OUTPUT
         
-0: adding lunch with deadline 1300 and duration 30
-0: adding work with deadline 7200 and duration 2300
-0: adding homework with deadline 2359 and duration 300
-0: busy with lunch with deadline 1300 and duration 30
-30: done with lunch
-30: busy with homework with deadline 2359 and duration 300
-330: done with homework
-330: busy with work with deadline 7200 and duration 2300
-2400: adding work with deadline 7200 and duration 230
+       0: adding lunch with deadline 1300 and duration 30
+       0: adding work with deadline 7200 and duration 2300
+       0: adding homework with deadline 2359 and duration 300
+       0: busy with lunch with deadline 1300 and duration 30
+       30: done with lunch
+       30: busy with homework with deadline 2359 and duration 300
+       330: done with homework
+       330: busy with work with deadline 7200 and duration 2300
+       2400: adding work with deadline 7200 and duration 230
 
 
 
